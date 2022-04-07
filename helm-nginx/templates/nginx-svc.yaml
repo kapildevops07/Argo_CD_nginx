@@ -5,6 +5,7 @@ metadata:
   labels:
     app: backstage
 spec:
+  type: LoadBalancer
   ports:
   - port: {{ .Values.backstage_port.http }}
     targetPort: {{ .Values.backstage_port.http }}
