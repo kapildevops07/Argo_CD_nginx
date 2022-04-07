@@ -4,4 +4,4 @@ backstage_image:
 backstage_port:
   http: 80
 backstage_replica:
-  count: '3'
+  count: '2'
